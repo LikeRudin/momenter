@@ -1,7 +1,6 @@
 import "./App.css";
+import { GithubLoginButton } from "./features/github-login-button";
 
-function App() {
-  return <></>;
-}
+const App = () => <GithubLoginButton />;
 
 export default App;
